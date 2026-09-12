@@ -43,7 +43,7 @@ fa = args.fa
 # outf = args.out
 outf = "out.json"
 # k = args.k
-k = 4
+k = 2
 
 dct = {}
 with open(fa, 'r') as inp:
