@@ -71,4 +71,11 @@ k = args.k
 
 Далее в **.github/workflows** создан файл **HW1-WF.yaml** с тестированием скриптов из задания 3 на push и предварительной проверкой с помощью pylint. **complement.py** проверяется случайной последовательностью, прописанной непосредственно в **HW1-WF.yaml**, **count_kmers.py** &ndash;
 
-Для тестирования workflow репозиторий временно сделан публичным.
+Для тестирования workflow репозиторий временно сделан публичным, создано новое **branch protection rule** и применено к ветке **main**.
+
+Создана ветка **workflow-testing**:
+```bash
+git checkout -b workflow-testing
+```
+
+В **count_kmers.py** обеспечен **NameError**
