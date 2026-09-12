@@ -1,0 +1,43 @@
+{
+  "seq001 Example DNA sequence for a gene": {
+    "AGCT": 5,
+    "GCTT": 1,
+    "CTTA": 1,
+    "TTAG": 1,
+    "TAGC": 4,
+    "AGCC": 1,
+    "GCCT": 1,
+    "CCTA": 1,
+    "CTAT": 1,
+    "TATG": 1,
+    "ATGC": 1,
+    "TGCT": 1,
+    "GCTA": 4,
+    "CTAG": 3,
+    "CTAA": 1,
+    "TAAG": 1,
+    "AAGC": 1
+  },
+  "seq002 Example Protein sequence": {
+    "MTEI": 1,
+    "TEIT": 1,
+    "EITA": 1,
+    "ITAA": 1,
+    "TAAM": 1,
+    "AAMV": 1,
+    "AMVK": 1,
+    "MVKE": 1,
+    "VKEL": 1,
+    "KELR": 1,
+    "ELRE": 1,
+    "LRES": 1,
+    "REST": 1,
+    "ESTG": 1,
+    "STGA": 1,
+    "TGAG": 1,
+    "GAGM": 1,
+    "AGMM": 1,
+    "GMMD": 1,
+    "MMDC": 1
+  }
+}
