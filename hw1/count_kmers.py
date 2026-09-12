@@ -23,7 +23,7 @@ def parse_fasta(fa):
 
 
 def count_kmers(seq, k):
-    kmers = {}
+    # kmers = {}
     
     for i in range(len(seq)-k+1):
         kmer = seq[i:i+k]
