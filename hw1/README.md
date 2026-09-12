@@ -49,7 +49,7 @@ k = args.k
 ```
 
 После ```git add count_kmers.py``` и ```git rebase --continue``` всё успешно отправляется в репозиторий. В логе видно, как актуальные коммиты красиво перебазировались:
-|||
+|| ```git log --graph --oneline --all``` |
 |:---|:---|
 | До ```git rebase --continue``` | ![Сообщение об ошибке](assets/fig2.png) |
 | После ```git rebase --continue``` и ```push``` | ![Сообщение об ошибке](assets/fig3.png) |
