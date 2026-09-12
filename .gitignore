@@ -1,6 +1,9 @@
 # .ipynb sandbox
 tech.ipynb
 
+# .gitignore
+.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
