@@ -35,15 +35,13 @@ def count_kmers(seq, k):
 parser = ArgumentParser(
             prog='k-mer count',
             description='Counts k-mers for the fasta file')
-parser.add_argument('-f', '--fa')
-parser.add_argument('-o', '--out')
-# parser.add_argument('-k')
+parser.add_argument('-f', '--fa', type=str)
+parser.add_argument('-o', '--out', type=str)
+parser.add_argument('-k', '--k', type=int)
 args = parser.parse_args()
 fa = args.fa
-# outf = args.out
-outf = "out.json"
-# k = args.k
-k = 2
+outf = args.out
+k = args.k
 
 dct = {}
 with open(fa, 'r') as inp:
